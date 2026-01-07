@@ -322,6 +322,8 @@ if mask_file and photo_files:
     st.divider()
     st.header("3. Configuration du nuage")
 
+    st.markdown("##### 🏆 Top 5 des réglages (Objectif de remplissage > 75%)")
+
     scales = [1.0, 0.75, 0.55, 0.35]
     simulation_results = []
 
@@ -514,3 +516,4 @@ if mask_file and photo_files:
                 buf_pdf.getvalue(),
                 "nuage.pdf",
                 width='stretch')
+
