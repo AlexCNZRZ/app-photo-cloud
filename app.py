@@ -276,6 +276,12 @@ if mask_file and photo_files:
     col_m1, col_m2, col_m3, col_m4 = st.columns(4)
 
     with col_m2:
+        st.markdown("##### Informations")
+        st.success("Fond transparent détecté")
+        st.info(f"Taille du mask : {original_mask.width} × {original_mask.height} px")
+
+    with col_m4:
+        st.markdown("##### Modifications éventuelles")
         new_width = st.number_input(
             "Largeur (px)",
             min_value=100,
@@ -516,4 +522,3 @@ if mask_file and photo_files:
                 buf_pdf.getvalue(),
                 "nuage.pdf",
                 width='stretch')
-
