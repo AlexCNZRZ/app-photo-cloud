@@ -11,7 +11,7 @@ tout en contrôlant la taille des photos et le chevauchement.
 ## 🚀 Démonstration en ligne
 
 👉 **Application accessible ici :**  
-https://<TON-URL>.streamlit.app
+https://app-photo-cloud.streamlit.app
 
 *(Application hébergée sur Streamlit Community Cloud)*
 
